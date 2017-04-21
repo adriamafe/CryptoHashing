@@ -1,3 +1,7 @@
+//
+// Created by Adrià Martínez on 21/04/2017.
+//
+
 #include <stdio.h>
 
 typedef unsigned char uchar;    // 8-bit byte

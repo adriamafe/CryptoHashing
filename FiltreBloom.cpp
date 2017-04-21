@@ -1,17 +1,20 @@
-#include <bitset>
+//
+// Created by Adrià Martínez on 21/04/2017.
+//
+#ifndef INCLUDE_BLOOM_FILTER_HPP
+#define INCLUDE_BLOOM_FILTER_HPP
+
 #include <iostream>
-#define SIZEF 256
+#include <bitset>
+#include <vector>
+#include string
+#include <math.h>
 
 using namespace std;
 
-struct bloomF {
-    private std::bitset<SIZEF> filter;
-     
-    void filter (int i) {
-        filter[i] = 1;
-    }
-     
-    bool test (int i) {
-        return filter[i];
-    }
+class{
+
+
+
+
 };
